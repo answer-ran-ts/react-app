@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+	<title></title>
+		<link rel="stylesheet" type="text/css" href="css/swiperds.min.css" />
+		<link rel="stylesheet" href="banner.css">
+	</head>
+	<body>
+		<div class="ts_box1">
+			<div><img src="./month20200816/banner.png" ></div>
+			<div><img src="month20200816/xizim.png"  style="margin-top: 0.266666rem;"></div>
+		</div>
+
+		<div class="ts_box2">
+			<input type="text" placeholder="请输入您的称呼:" />
+			<input type="text" placeholder="请输入您的联系方式:" />
+			<p>立即提交</p>
+		</div>
+
+		<div class="ts_box3">
+			<img src="month20200816/title05.png" >
+			<div class="ts_tage">
+				<p class="addit" onclick="repSwiper(this,'#test1','#des-one')">95㎡</p>
+				<p onclick="repSwiper(this,'#test2','#des-two')">120㎡</p>
+				<p onclick="repSwiper(this,'#test3','#des-three')">140㎡</p>
+				<p onclick="repSwiper(this,'#test4','#des-four')">160㎡</p>
+			</div>
+			<div class="ts_banner_box">
+				<!-- 轮播图1 -->
+				<div class="ts_banenr" id="test1">
+					<div class="swiper-container banner1">
+						<div class="swiper-wrapper">
+							<div class="swiper-slide"><img src="month20200816/house95/banner9501.png" ></div>
+							<div class="swiper-slide"><img src="month20200816/house95/banner9502.png" ></div>
+							<div class="swiper-slide"><img src="month20200816/house95/banner9503.png" ></div>
+						</div>
+					</div>
+				</div>
+
+				<!-- 轮播图2 -->
+				<div class="ts_banenr" id="test2" style="display: none;">
+					<div class="swiper-container banner2">
+						<div class="swiper-wrapper">
+							<div class="swiper-slide"><img src="month20200816/house105/banner1201.png" ></div>
+							<div class="swiper-slide"><img src="month20200816/house105/banner1202.png" ></div>
+							<div class="swiper-slide"><img src="month20200816/house105/banner1203.png" ></div>
+						</div>
+					</div>
+				</div>
+
+				<!-- 轮播图3 -->
+				<div class="ts_banenr" id="test3" style="display: none;">
+					<div class="swiper-container banner3">
+						<div class="swiper-wrapper">
+							<div class="swiper-slide"><img src="month20200816/house115/banner1401.png" ></div>
+							<div class="swiper-slide"><img src="month20200816/house115/banner1402.png" ></div>
+							<div class="swiper-slide"><img src="month20200816/house115/banner1403.png" ></div>
+						</div>
+					</div>
+				</div>
+
+				<!-- 轮播图4 -->
+				<div class="ts_banenr" id="test4" style="display: none;">
+					<div class="swiper-container banner4">
+						<div class="swiper-wrapper">
+							<div class="swiper-slide"><img src="month20200816/house128/banner1281.png" ></div>
+							<div class="swiper-slide"><img src="month20200816/house128/banner1282.png" ></div>
+							<div class="swiper-slide"><img src="month20200816/house128/banner1283.png" ></div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- 内容4 -->
+			<div class="ts_content_box">
+				<div class="ts_content" id="des-one">
+					<p>A户型方案解析</p>
+					<p>三房两厅可以说户型非常完美,美中不足的就是餐厅相对来说窄了一点,后期通过现代风格的细腿家具,以及白色的酒柜窄边的通透玻璃厨房门来凸现餐厅的空间感。拆掉北阳台的门划入餐厅,扩大餐厅的面积。本案主色调以高级灰冷暖撞色搭配,来提升客餐厅的整体立体感以及视觉的冲击。</p>
+				</div>
+				<div class="ts_content" id="des-two" style="display: none;">
+					<p>B户型方案解析</p>
+					<p>三房两厅可以说户型非常完美，美中不足的就是餐厅相对来说窄了一点，后期通过现代风格的细腿家具，以及白色的酒柜窄边的通透玻璃厨房门来凸现餐厅的空间感。拆掉北阳台的门划入餐厅，扩大餐厅的面积。本案主色调以高级灰冷暖撞色搭配，来提升客餐厅的整体立体感以及视觉的冲击。</p>
+				</div>
+				<div class="ts_content" id="des-three" style="display: none;">
+					<p>C户型方案解析</p>
+					<p>三房两厅可以说户型非常完美，美中不足的就是餐厅相对来说窄了一点，后期通过现代风格的细腿家具，以及白色的酒柜窄边的通透玻璃厨房门来凸现餐厅的空间感。拆掉北阳台的门划入餐厅，扩大餐厅的面积。本案主色调以高级灰冷暖撞色搭配，来提升客餐厅的整体立体感以及视觉的冲击。</p>
+				</div>
+				<div class="ts_content" id="des-four" style="display: none;">
+					<p>D户型方案解析</p>
+					<p>三房两厅可以说户型非常完美，美中不足的就是餐厅相对来说窄了一点，后期通过现代风格的细腿家具，以及白色的酒柜窄边的通透玻璃厨房门来凸现餐厅的空间感。拆掉北阳台的门划入餐厅，扩大餐厅的面积。本案主色调以高级灰冷暖撞色搭配，来提升客餐厅的整体立体感以及视觉的冲击。</p>
+				</div>
+			</div>
+
+			<div class="ts_designer">
+				<p>免费获取设计案例</p>
+				<p>咨询获取全面报价</p>
+			</div>
+		</div>
+
+		<div class="ts_box4">
+			<img src="month20200816/baiqs.png" >
+			<p>立即预约</p>
+			<img src="month20200816/xianj01.png"  style="margin-top: 0.266666rem;">
+		</div>
+
+		<div class="ts_box5">
+			<p>
+				<img src="month20200816/title06.png" width="32%">
+				<img src="month20200816/liuc01.png" >
+			</p>
+			<p>
+				<input type="text" value="" placeholder="面积" />
+				<input type="text" value="" placeholder="姓名" />
+				<input type="text" value="" placeholder="电话号码" />
+				<p class="yuyue">立即预约</p>
+			</p>
+			
+			<div class="six-anibox">
+				<div class="six-ani">
+					<div class="six-anicus">
+						<ul id="marani">
+							<li>用户&nbsp;&nbsp;186****2693&nbsp;&nbsp;已提交&nbsp;&nbsp;&nbsp;1天前</li>
+							<li>用户&nbsp;&nbsp;183****1501&nbsp;&nbsp;已提交&nbsp;&nbsp;&nbsp;1天前</li>
+							<li>用户&nbsp;&nbsp;156****2231&nbsp;&nbsp;已提交&nbsp;&nbsp;&nbsp;1天前</li>
+							<li>用户&nbsp;&nbsp;136****1401&nbsp;&nbsp;已提交&nbsp;&nbsp;&nbsp;2天前</li>
+							<li>用户&nbsp;&nbsp;182****7582&nbsp;&nbsp;已提交&nbsp;&nbsp;&nbsp;2天前</li>
+							<li>用户&nbsp;&nbsp;156****9903&nbsp;&nbsp;已提交&nbsp;&nbsp;&nbsp;3天前</li>
+							<li>用户&nbsp;&nbsp;135****2607&nbsp;&nbsp;已提交&nbsp;&nbsp;&nbsp;3天前</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			
+		</div>
+		<div class="ts_blank">
+			
+		</div>
+		<script src="js/flexible.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/jquery-2.2.4.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/swiper.min.js" type="text/javascript" charset="utf-8"></script>
+		<script type="text/javascript">
+			var mySwiper = new Swiper('.swiper-container ', {
+				loop: true,
+				autoplay: true,
+				autoplay:{
+					disableOnInteraction:false,
+				},
+				observeParents: true,//修改swiper的父元素时，自动初始化swiper
+				observer: true, //修改swiper自己或子元素时，自动初始化swiper
+				
+			})
+		
+			
+			// 切换
+			function repSwiper(that, id, desid) {
+				$(that).addClass('addit').siblings().removeClass('addit');
+				$(id).show().siblings().hide();
+				$(desid).show().siblings().hide();
+			}
+			
+			// 滚动动画
+				var jul = 0;
+				setInterval(function(){
+					jul ++;
+					if(jul == 96){
+						jul = 0;
+					};
+					let marnum = '-' + jul + 'px';
+					$("#marani").css("marginTop",marnum);
+				},50);
+		</script>
+	</body>
+</html>
